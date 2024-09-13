@@ -25,6 +25,4 @@ Para gestionar tus tareas de manera organizada, sigue estos pasos:
 - Cada tarea estará organizada en una rama separada, utilizando el formato:  
   `nombre-de-la-tarea`.
 
-- Sigue una estructura clara y bien comentada en los archivos para facilitar su revisión futura.
-
 ---

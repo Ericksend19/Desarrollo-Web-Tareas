@@ -16,12 +16,13 @@ Para gestionar tus tareas de manera organizada, sigue estos pasos:
 
 1. **Clonar el repositorio** (si no lo has hecho ya):  
    `git clone https://github.com/usuario/desarrollo-web-umg-2024.git`
-
+2. **Seleccionar la rama**:     
+   `git checkout rama`
 ---
 
 ## Estructura del Repositorio
 
-- Cada tarea estará organizada en una carpeta separada, utilizando el formato:  
+- Cada tarea estará organizada en una rama separada, utilizando el formato:  
   `nombre-de-la-tarea`.
 
 - Sigue una estructura clara y bien comentada en los archivos para facilitar su revisión futura.

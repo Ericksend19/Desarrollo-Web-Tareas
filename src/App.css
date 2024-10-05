@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
+body {
+  margin: 0;
+  padding: 40px;
+  font-family: 'Poppins', 'Helvetica', sans-serif;
+  font-size: 18px;
+  line-height: 1.8;
+  color: #222;
+  background-color: #1a1a1a; /* Fondo oscuro */
+  color: #f0f0f0; /* Texto claro */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Slab', serif;
+  color: #ff6f61; /* Colores llamativos para títulos */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+p {
+  font-size: 17px;
+  margin-bottom: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+a {
+  color: #ffcc00; /* Colores más vibrantes para enlaces */
+  text-decoration: none;
 }
 
-.App-link {
-  color: #61dafb;
+a:hover {
+  color: #ff9900; /* Efecto hover en enlaces */
+  text-decoration: underline;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+code {
+  font-family: 'Fira Code', monospace;
+  background-color: #333;
+  color: #00ff00;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: inline-block;
+  margin-top: 10px;
 }
+
+button {
+  background-color: #ff6f61;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff3d2e; /* Efecto hover en botones */
+}
+
